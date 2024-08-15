@@ -1,0 +1,263 @@
+body{
+    font-family:  'Arial', sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.6;
+    color:#333;
+}
+
+.heading h2{
+    color:#fff;
+}
+
+header{
+    background-color: #333;
+    color:#fff;
+    padding:20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav ul li{
+    display:inline;
+    margin:0px 15px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:20px;
+    margin: 20px;
+    border-bottom:1px solid #ddd;
+}
+
+ h2{
+    color:#333;
+}
+
+#about-udupi{
+    background-color: #f7f7f7;
+    padding:60px 20px;
+    text-align:center;
+}
+
+#about-udupi h1{
+    color:#333;
+    font-size: 32px;
+    margin-bottom:20px;
+    font-family:'Georgin', serif;
+}
+
+#about-udupi p{
+    color:#555;
+    font-size:10px;
+    line-height:1.0;
+    margin-bottom:20px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'arial',sans-serif;
+}
+
+#about-udupi p:last-of-type{
+margin-bottom: 0;
+}
+
+/* @media(max-width: 768px) {
+    #about-udupi h1{
+    font-size:20px;
+    }
+    #about-udupi p{
+        font-size:16px;
+        padding: 0 10px;
+    }
+} */
+
+
+#destinations{
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align:center;
+}
+
+.destination-item{
+    background-color: #fff;
+    padding:20px;
+    margin-bottom:40px;
+    border-radius:8px;
+    box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.destination-item h2 {
+    color:#444;
+    margin-bottom:10px;
+    font-size:24px;
+}
+
+.destination-image{
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    margin: 15px 0;
+}
+
+.destination-item ul{
+    list-style-type: none;
+    padding:5px;
+    text-align:center;
+}
+
+.destination-item ul li{
+    margin:5px 0;
+}
+
+.destination-item ul li strong{
+    color:#333;
+}
+
+.destination-image:hover {
+    transform:scale(1.05);
+    transition:transform 0.3s ease;
+}
+
+/* @media(max-width:600px){
+    .destination-item{
+        padding:15px;
+        margin-bottom:30px;
+    }
+
+    .destnation-item h3{
+        font-size:20px;
+    }
+
+    .destination-image{
+        max-width:100%;
+        margin:10px 0;
+    }
+} */
+
+
+
+#travel-tips{
+    background-color: #e0f7fa;
+    padding:40px 20px;
+    text-align: center;
+}
+
+.tip-container{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.travel-tip{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #00796b;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-align:left;
+}
+
+.travel-tip h3{
+    color: #00796b;
+    margin-bottom: 10px;
+    font-size:22px;
+}
+
+.travel-tip p{
+    color:#444;
+    line-height:1.6;
+}
+
+/* @media(max-width:600px){
+    #travel-tips{
+        padding:20px 10px;
+    }
+
+    .travel-tip{
+        padding:15px;
+    }
+
+    .travel-tip h3{
+        font-size:20px;
+    }
+} */
+
+#photoGalary{
+    background-color: #f4f4f4;
+    padding:40px 20px;
+    text-align: center;
+}
+
+#photoGallery h2{
+    color:#444;
+    margin-bottom:20px;
+}
+
+#photoGallery p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 15px;
+    max-width:1000px;
+    margin:0 auto;
+}
+.gallery-item{
+    overflow:hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    display:block;
+    transition:transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Responsive Design */
+@media (max-width:600px){
+    nav ul li{
+        display:block;
+        text-align:center;
+        margin:10px 0;
+    }
+    section{
+        margin:10px;
+        padding:10px;
+    }
+}
+
+figcaption{
+    text-align: center;
+    color:#555;
+    font-size:12px;
+    /* line-height:; */
+    margin:20px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    font-family:'arial',sans-serif;
+}
